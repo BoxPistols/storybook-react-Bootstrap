@@ -5,10 +5,15 @@ import { Container } from './stories.helper'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import markdownNotes from '../markdowns/buttons.markdown.md'
 
+function handleClick(e) {
+  e.preventDefault();
+  alert('The link was clicked.');
+}
+
 const BasicButtons = () => {
   return (
     <Container title="Basic Buttons">
-      <Button color="primary"> primary </Button>{' '}
+      <Button color="primary" onClick={handleClick}> primary </Button>{' '}
       <Button color="secondary"> secondary </Button>{' '}
       <Button color="success"> success </Button>{' '}
       <Button color="info"> info </Button>{' '}
