@@ -81,8 +81,8 @@ const storyFunction = () =>{
     return(
         <React.Fragment>
             <BasicButtons />
-            <ButtonSizes /> 
-            <OutlineButtons /> 
+            <ButtonSizes />
+            <OutlineButtons />
             <ButtonGroups/>
         </React.Fragment>
     )
