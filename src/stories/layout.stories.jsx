@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react'
 import { Container, Row, Col } from 'reactstrap'
 import { Container as PageContainer } from './stories.helper'
 import markdownNotes from '../markdowns/layout.markdown.md'
+import "./story.scss";
 
 const SingleColumnGrid = () => {
   return (
