@@ -2,7 +2,6 @@ import React from "react";
 
 const containerStyle={
     padding:"20px",
-    color: "red",
     clear:"both"
 }
 export const Container = ({title,children}) =>{
