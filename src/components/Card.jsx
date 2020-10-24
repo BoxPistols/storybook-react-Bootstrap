@@ -6,7 +6,7 @@ const CardStyle = (props) => {
     <Row>
       <Col sm="6">
         <Card body>
-          <CardTitle>Special Title Treatment</CardTitle>
+          <CardTitle>1-Special Title Treatment</CardTitle>
           <CardText>
             With supporting text below as a natural lead-in to additional
             content.
@@ -16,7 +16,7 @@ const CardStyle = (props) => {
       </Col>
       <Col sm="6">
         <Card body>
-          <CardTitle>Special Title Treatment</CardTitle>
+          <CardTitle>2-Special Title Treatment</CardTitle>
           <CardText>
             With supporting text below as a natural lead-in to additional
             content.
