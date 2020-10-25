@@ -3,21 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@storybook/addon-notes": "^5.3.21",
     "@storybook/addon-viewport": "^6.0.27",
     "@storybook/react": "^6.0.27",
+=======
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-notes": "^5.1.11",
+    "@storybook/addon-viewport": "^5.1.11",
+    "@storybook/react": "^6.0.27",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "@types/storybook__react": "^5.2.1",
+    "babel-preset-react-app": "^9.1.2",
+>>>>>>> @{-1}
     "bootstrap": "^4.3.1",
+    "node-sass": "^4.14.1",
     "react": "^16.9.0",
+    "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
-    "reactstrap": "^8.0.1"
+    "reactstrap": "^8.0.1",
+    "sass-loader": "^10.0.4",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook -p 2222"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0"
   }
 }

@@ -1,11 +1,9 @@
-import {configure,addParameters} from "@storybook/react"
+// import {configure,addParameters} from "@storybook/react"
+// const req = require.context('../src/stories', true, /\.stories\.js$/);
+// function loadStories() {
+//   req.keys().forEach(filename => req(filename));
+// }
 
-const req = require.context('../src/stories', true, /\.stories\.js$/);
+// addParameters({ options: { showAddonPanel: true } });
 
-function loadStories() {
-  req.keys().forEach(filename => req(filename));
-}
-
-addParameters({ options: { showAddonPanel: false } });
-
-configure(loadStories,module);
+// configure(loadStories,module);
